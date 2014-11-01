@@ -41,6 +41,30 @@ angularApp.service('FormService', function FormService($http) {
             {
                 name : 'hidden',
                 value : 'Hidden'
+            },
+            {
+                name : 'number',
+                value : 'Number'
+            },
+            {
+                name : 'relatedtype-multiselect',
+                value : 'Related Multiselect'
+            },
+            {
+                name : 'relatedtype-singleselect',
+                value : 'Related Singleselect'
+            },
+            {
+                name : 'json',
+                value : 'JSON'
+            },
+            {
+                name : 'textfield-multilanguage',
+                value : 'Textfield Multilanguage'
+            },
+            {
+                name : 'media',
+                value : 'Media'
             }
         ],
         form:function (id) {
